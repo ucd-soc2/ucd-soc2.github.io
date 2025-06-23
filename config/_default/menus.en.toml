@@ -1,0 +1,32 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Peoples"
+pageRef = "/peoples"
+identifier = "kM5WB51oYk"
+weight = 9_999
+
+[[main]]
+name = "About"
+pageRef = "about"
+identifier = "68kwAuGu1m"
+weight = 9_999
+
+[[main]]
+name = "News"
+pageRef = "news"
+identifier = "lXchfXViH5"
+weight = 9_999
+
+[[footer]]
+name = "School of Computer Science"
+url = "https://cs.ucd.ie"
+identifier = "ELWjnIAIMF"
+weight = 9_999
+
+[[footer]]
+name = "University College Dublin"
+url = "https://www.ucd.ie/"
+identifier = "GW5ed0FJZu"
+weight = 9_999

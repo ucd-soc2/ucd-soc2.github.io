@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "SOC2: Sustainable Orchestration Computing Continuum Lab"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "The SOC2 Lab at School of Computer Science, University College Dublin. Is dedicated to advancing research and innovation in the Sustainable Orchestration Computing Continuum (SOC2). This interdisciplinary lab focuses on creating robust, stable, and efficient computing systems capable of seamless operation across diverse environments."
+
+["params.author"]
+name = "SOC2 Team"
+headline = "Sustainable Orchestration Computing Continuum Lab"
+bio = "The SOC2 Lab at School of Computer Science, University College Dublin. Is dedicated to advancing research and innovation in the Sustainable Orchestration Computing Continuum (SOC2). This interdisciplinary lab focuses on creating robust, stable, and efficient computing systems capable of seamless operation across diverse environments."
