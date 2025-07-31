@@ -20,7 +20,7 @@ smartTOC = true
 defaultFeaturedImage = "science-banner-1536x382-949941337.jpg"
 
 [header]
-layout = "fixed"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
