@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "SOC2: Sustainable Orchestration Computing Continuum Lab"
+title = "SOC2 Lab @ UCD"
 
 [params]
 displayName = "EN"

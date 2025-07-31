@@ -20,7 +20,7 @@ smartTOC = true
 defaultFeaturedImage = "science-banner-1536x382-949941337.jpg"
 
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed"
 
 [footer]
 showMenu = true
@@ -34,7 +34,7 @@ layout = "card"
 showRecent = true
 showRecentItems = "10"
 showMoreLink = true
-showMoreLinkDest = "/posts"
+showMoreLinkDest = "/projects"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true

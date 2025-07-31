@@ -27,8 +27,8 @@ weight = 4
 
 [[main]]
 name = "Publications"
-pageRef = "publications/"
-identifier = "wy6playQl3"
+pageRef = "/publications"
+identifier = "92Q2PGy38u"
 weight = 2
 
 [[footer]]
