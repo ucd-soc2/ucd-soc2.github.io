@@ -1,0 +1,3 @@
+[submodule "themes/blowfish"]
+	path = themes/blowfish
+	url = https://github.com/ucd-soc2/blowfish.git
