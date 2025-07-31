@@ -5,19 +5,31 @@ none = "none"
 name = "Peoples"
 pageRef = "/peoples"
 identifier = "kM5WB51oYk"
-weight = 9_999
+weight = 3
 
 [[main]]
 name = "About"
 pageRef = "about"
 identifier = "68kwAuGu1m"
-weight = 9_999
+weight = 5
 
 [[main]]
-name = "News"
-pageRef = "news"
-identifier = "lXchfXViH5"
-weight = 9_999
+name = "Projects"
+pageRef = "projects/"
+identifier = "dxb0VrntYu"
+weight = 1
+
+[[main]]
+name = "Vacancies"
+pageRef = "vacancies/"
+identifier = "xfcsYMmIlR"
+weight = 4
+
+[[main]]
+name = "Publications"
+pageRef = "publications/"
+identifier = "wy6playQl3"
+weight = 2
 
 [[footer]]
 name = "School of Computer Science"

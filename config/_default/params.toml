@@ -20,12 +20,12 @@ smartTOC = true
 defaultFeaturedImage = "science-banner-1536x382-949941337.jpg"
 
 [header]
-layout = "basic"
+layout = "fixed"
 
 [footer]
 showMenu = true
 showCopyright = true
-showThemeAttribution = true
+showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true
 
