@@ -1,0 +1,105 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $disableHeroImageFilter := .Site.Params.homepage.disableHeroImageFilter | default false }}
+
+<!-- Full-width hero section -->
+<section class="relative w-full h-screen overflow-hidden -mx-4 sm:-mx-6 lg:-mx-8" style="margin-top: -148px;">
+  <!-- Background Image -->
+  {{ $homepageImage := "" }}
+  {{ with .Site.Params.defaultBackgroundImage }}
+    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+      {{ $homepageImage = resources.GetRemote . }}
+    {{ else }}
+      {{ $homepageImage = resources.Get . }}
+    {{ end }}
+  {{ end }}
+  {{ with .Site.Params.homepage.homepageImage }}
+    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+      {{ $homepageImage = resources.GetRemote . }}
+    {{ else }}
+      {{ $homepageImage = resources.Get . }}
+    {{ end }}
+  {{ end }}
+  
+  {{ if $homepageImage }}
+    <div class="absolute inset-0">
+      <img 
+        class="w-full h-full object-cover" 
+        src="{{ $homepageImage.RelPermalink }}"
+        alt="Cover Image"
+        style="filter: var(--hero-filter, none);">
+      <!-- Dark overlay - darker for dark theme -->
+      {{ if not $disableHeroImageFilter }}
+        <div class="absolute inset-0 bg-black bg-opacity-40 dark:bg-opacity-70"></div>
+      {{ else }}
+        <div class="absolute inset-0 bg-black bg-opacity-20 dark:bg-opacity-50"></div>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700"></div>
+  {{ end }}
+
+  <style>
+    /* Light theme - no filter */
+    :root {
+      --hero-filter: none;
+    }
+    
+    /* Dark theme - apply filter */
+    .dark {
+      --hero-filter: brightness(0.7) contrast(1.1);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root:not(.light) {
+        --hero-filter: brightness(0.7) contrast(1.1);
+      }
+    }
+  </style>
+
+  <!-- Content overlay -->
+  <div class="relative z-10 flex items-center justify-center h-full text-center text-white px-6">
+    <div class="max-w-4xl">
+      <!-- Title -->
+      <h1 class="text-5xl md:text-7xl font-bold mb-4" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+        {{ .Site.Params.Author.name | default .Site.Title }}
+      </h1>
+      
+      <!-- Subtitle -->
+      {{ with .Site.Params.Author.headline }}
+        <p class="text-xl md:text-2xl mb-8 text-gray-200">
+          {{ . | markdownify }}
+        </p>
+      {{ end }}
+
+      <!-- Social Links -->
+      {{ with .Site.Params.Author.links }}
+        <div class="flex justify-center space-x-4">
+          {{ range $links := . }}
+            {{ range $name, $url := $links }}
+              <a href="{{ $url }}" target="_blank" class="text-white hover:text-gray-300 text-2xl">
+                {{ partial "icon.html" $name }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Regular content sections -->
+<div class="mt-16">
+  {{ if .Site.Params.homepage.showRecent }}
+    {{ partial "recent-articles/main.html" . }}
+  {{ end }}
+  
+  {{ if .Content }}
+    <section class="py-12">
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="prose dark:prose-invert mx-auto">
+          {{ .Content }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+</div>

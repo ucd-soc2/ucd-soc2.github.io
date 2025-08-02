@@ -1,4 +1,4 @@
-colorScheme = "slate"
+colorScheme = "forest"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
@@ -38,7 +38,7 @@ showMoreLinkDest = "/projects"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
-homepageImage = "UCD23-2642508121.jpg"
+homepageImage = "massimo-botturi-zFYUsLk_50Y-unsplash.jpg"
 
 [article]
 showDate = false

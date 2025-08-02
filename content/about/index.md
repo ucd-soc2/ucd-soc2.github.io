@@ -4,6 +4,8 @@ date: 2025-05-17
 draft: false
 description: "a description"
 
+showRelatedContent: false
+
 tags: ["SOC2", "Lab", "Sustainable", "Orchestration", "Computing", "Continuum", "UCD", "University College Dublin", "Research Group"]
 ---
 
@@ -19,4 +21,7 @@ The lab's research areas include:
 - Large language models (LLMs)
 - Distributed and edge-based LLMs
 
-The lab is also involved in various research projects and collaborations with industry partners to develop innovative solutions for sustainable computing and AI deployment.
+The lab is also involved in various research projects to develop innovative solutions for sustainable computing and AI deployment.
+
+{{< list limit=3 title=Peoples where="Type" value="peoples" >}}
+

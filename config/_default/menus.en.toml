@@ -2,12 +2,6 @@
 none = "none"
 
 [[main]]
-name = "Peoples"
-pageRef = "/peoples"
-identifier = "kM5WB51oYk"
-weight = 3
-
-[[main]]
 name = "About"
 pageRef = "about"
 identifier = "68kwAuGu1m"

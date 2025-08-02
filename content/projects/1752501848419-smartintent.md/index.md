@@ -52,24 +52,25 @@ SmartIntent offers a "feasible design idea and realization paradigm for the next
 
 **Potential Visual Aid:** A "roadmap" graphic showing future directions, such as "Enhanced User Testing," "Advanced Anomaly Handling," and "Energy Optimization."
 
-## Open Resouces
+## Resources
 
 We have made the following resources available for the SmartIntent project:
 
-- **[SmartIntent GitHub Repository](https://github.com/ucd-soc2/smartintent)
-- **[SmartIntent Dataset](https://github.com/ucd-soc2/smartintent/tree/main/data)
+{{< github repo="ucd-soc2/smartintent" showThumbnail=true >}}
+
+[Dataset](https://github.com/ucd-soc2/smartintent/tree/main/data)
 
 -----
 ## Project Members
 
 Beijing Dublin International College, UCD
 
-- Shuyi Sun
-- Zhiyuan Chen
-- Dina Shi
-- Chaofan Li
+* Shuyi Sun
+* Zhiyuan Chen
+* Dina Shi
+* Chaofan Li
 
 School of Computer Science, UCD
 
-- Zhenghao Wu
-- Hadi Tabatabaee Malazi
+* Zhenghao Wu
+* Hadi Tabatabaee Malazi
