@@ -1,15 +1,19 @@
 ---
 title: "Vacancies & Collaboration Opportunities"
 description: "Join SOC2 Lab - Current opportunities for collaboration and partnerships"
+
+showRelatedContent: false
 ---
 
 ## Current Openings
 
-We currently do not have any open positions for PhD students, postdocs, or research staff at SOC2 Lab.
+{{< alert "circle-info" >}}
+We currently do not have any open positions for PhD students, postdocs at the moment.
+{{< /alert >}}
 
 ## Collaboration & Partnership Opportunities
 
-While we don't have formal vacancies at the moment, **we are always open to exciting collaborations and partnerships**! We actively welcome:
+we are always open to exciting collaborations and partnerships!
 
 ### 🤝 Research Collaborations
 
@@ -28,22 +32,19 @@ While we don't have formal vacancies at the moment, **we are always open to exci
 ### 🎓 Student Opportunities
 
 - Self-funded PhD students with aligned research interests
-- Master's thesis supervision (internal UCD students)
 
 ## Get in Touch
 
-If you're interested in exploring collaboration opportunities or have ideas for joint research, we'd love to hear from you!
+If you're interested in exploring collaboration opportunities or have ideas for joint research projects, please reach out to us.
 
 **Contact Information:**
 
-- **Lab Director**: Dr. Hadi Tabatabaee Malazi
+- **Director**: Dr. Hadi Tabatabaee Malazi
 - **Email**: [hadi.tabatabaee@ucd.ie](mailto:hadi.tabatabaee@ucd.ie)
-- **Location**: School of Computer Science, University College Dublin
 
-
-*To help us understand your interests better, please include:*
-
-- *Your background and current affiliation*
-- *Specific research areas or projects you'd like to collaborate on*
-- *Proposed timeline and scope of collaboration*
-- *Any relevant experience in sustainable computing or related fields*
+> *To help us understand your interests better, please include:*
+> 
+> - *Your background and current affiliation*
+> - *Specific research areas or projects you'd like to collaborate on*
+> - *Proposed timeline and scope of collaboration*
+> - *Any relevant experience in sustainable computing or related fields*
