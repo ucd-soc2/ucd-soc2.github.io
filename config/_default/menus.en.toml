@@ -26,13 +26,13 @@ identifier = "92Q2PGy38u"
 weight = 2
 
 [[footer]]
-name = "School of Computer Science"
-url = "https://cs.ucd.ie"
-identifier = "ELWjnIAIMF"
-weight = 9_999
-
-[[footer]]
 name = "University College Dublin"
 url = "https://www.ucd.ie/"
 identifier = "GW5ed0FJZu"
+weight = 1
+
+[[footer]]
+name = "School of Computer Science"
+url = "https://www.ucd.ie/cs/"
+identifier = "ddri31r0WR"
 weight = 9_999
