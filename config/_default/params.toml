@@ -38,7 +38,7 @@ showMoreLinkDest = "/projects"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
-homepageImage = "STG_vSnap-2.mp4"
+homepageImage = "soc2-title.mp4"
 
 [article]
 showDate = false
