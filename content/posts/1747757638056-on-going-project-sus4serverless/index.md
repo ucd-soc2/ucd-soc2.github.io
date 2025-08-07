@@ -5,7 +5,7 @@ draft: false
 description: "Sustainable Serverless Computing: A Research Initiative"
 tags: ["sustainable", "serverless", "computing", "energy efficiency", "carbon footprint"]
 authors:
-  - "haditabatabaee"
+  - "shaoshuzhu"
 showAuthor: false
 ---
 
@@ -13,48 +13,42 @@ In this ongoing project, we're exploring methods to optimize serverless computin
 
 ## Project Objectives
 
-- Measure energy consumption of serverless functions across providers
+- Setup a framework to measure energy consumption of serverless functions
+- Analyze the carbon footprint of different serverless providers
 - Develop optimization techniques for reducing resource usage
 - Create frameworks for carbon-aware function scheduling
 - Provide developers with tools to monitor and improve sustainability
 
+## Test Bed and Accurate Measurement
+
+To accurately assess energy consumption, we employ CPU frequency-based estimation rather than relying solely on utilization metrics. Utilization-based measurement often fails to capture the true power draw, as CPU utilization does not directly correlate with energy usage—different workloads and processor states can result in varying power consumption even at similar utilization levels.
+
+| Architecture | Device                | Quantity | Measurement Method         |
+|--------------|----------------------|----------|---------------------------|
+| x64          | Intel-based Machine   | 1        | Shunt Resistor     |
+| x64          | AMD-based Machine     | 1        | Shunt Resistor     |
+| ARM          | Apple Mac Mini (M4)   | 2        | Shunt Resistor     |
+| ARM          | NVIDIA Jetson         | 2        | Shunt Resistor     |
+| ARM          | Raspberry Pi 5        | 1        | Shunt Resistor     |
+
+Expect for a more accurate measurement framework, all devices are monitored using shunt resistors to measure current and voltage during function execution, enabling direct calculation of power usage and validation of our estimation models.
+
 ## Preliminary Results
 
-We've collected data from multiple cloud providers and analyzed the energy profiles of various function types:
+We've collected carbon emission data from power grids in various regions and correlated it with serverless function executions. This allows us to estimate the carbon footprint of executing functions in different regions. Our initial findings show significant variations in carbon intensity based on geographic location and time of day.
 
-| Function Type | AWS Lambda (W·h) | Azure Functions (W·h) | Google Cloud Functions (W·h) |
-|---------------|------------------|----------------------|------------------------------|
-| REST API      | 0.042            | 0.039                | 0.045                        |
-| Data Processing| 0.087           | 0.092                | 0.081                        |
-| ML Inference  | 0.156            | 0.148                | 0.152                        |
-| File Operations| 0.063           | 0.058                | 0.061                        |
-
-## Carbon-Aware Deployment Strategy
-
-We've developed a prototype scheduler that routes function executions to regions with the lowest carbon intensity:
-
-```python
-def deploy_function(function_code, requirements):
-    regions = get_available_regions()
-    carbon_intensities = fetch_carbon_intensity(regions)
-    
-    # Sort regions by carbon intensity (lowest first)
-    green_regions = sorted(regions, key=lambda r: carbon_intensities[r])
-    
-    # Deploy to the greenest region with capacity
-    for region in green_regions:
-        if check_capacity(region, requirements):
-            return deploy_to_region(function_code, region)
-    
-    # Fallback to default region if needed
-    return deploy_to_region(function_code, DEFAULT_REGION)
-```
+| Region      | Time        | Carbon Emission per Watt (gCO₂/W) |
+|-------------|-------------|-----------------------------------|
+| US-East     | 10:00 AM    | 0.45                              |
+| EU-West     | 2:00 PM     | 0.32                              |
+| Asia-South  | 6:00 PM     | 0.60                              |
+| Australia   | 9:00 AM     | 0.28                              |
+| South America | 3:00 PM   | 0.52                              |
 
 ## Next Steps
 
-1. Expand our dataset to include more function types and workloads
-2. Develop a plugin for popular serverless frameworks
-3. Create developer guidelines for writing energy-efficient functions
-4. Partner with cloud providers to implement carbon-aware scheduling
+1. Expand our dataset to cover a broader range of serverless function types, workloads, and real-world use cases.
+2. Develop and test optimization algorithms for reducing energy consumption in serverless functions.
+3. Collaborate with serverless providers to implement carbon-aware scheduling and resource allocation.
 
 We welcome collaborators interested in sustainable computing! Reach out if you'd like to contribute to this research.
