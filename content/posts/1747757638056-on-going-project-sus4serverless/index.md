@@ -45,6 +45,35 @@ We've collected carbon emission data from power grids in various regions and cor
 | Australia   | 9:00 AM     | 0.28                              |
 | South America | 3:00 PM   | 0.52                              |
 
+## Carbon-Aware vs. Standard Scheduler Example
+
+Below is a simplified Python example comparing a standard scheduler with a carbon-aware scheduler for serverless function execution. The carbon-aware scheduler selects the region with the lowest carbon emission at the time of scheduling.
+
+```python
+import random
+
+regions = {
+  "US-East": 0.45,
+  "EU-West": 0.32,
+  "Asia-South": 0.60,
+  "Australia": 0.28,
+  "South America": 0.52
+}
+
+def standard_scheduler():
+  # Randomly select a region
+  return random.choice(list(regions.keys()))
+
+def carbon_aware_scheduler():
+  # Select region with lowest carbon emission
+  return min(regions, key=regions.get)
+
+print("Standard Scheduler selected:", standard_scheduler())
+print("Carbon-Aware Scheduler selected:", carbon_aware_scheduler())
+```
+
+The carbon-aware scheduler consistently chooses the region with the lowest carbon emission, demonstrating a simple but effective optimization for sustainability.
+
 ## Next Steps
 
 1. Expand our dataset to cover a broader range of serverless function types, workloads, and real-world use cases.
