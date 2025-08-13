@@ -1,6 +1,6 @@
 ---
 title: "Research Areas"
-date: 2025-08-17
+date: 2025-08-10
 draft: false
 description: "Research area description"
 

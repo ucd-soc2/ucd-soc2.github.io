@@ -1,44 +1,45 @@
 [[main]]
 name = "About SOC² Lab"
-pageRef = "/about"
+pageRef = "about"
 identifier = "RVYpEEdF9E"
 weight = 1
 
 [[main]]
 name = "Research areas"
-pageRef = "/research_areas"
-identifier = "6ZqzZWrX8R"
+url = "/about/research_areas"
+identifier = "ZMM5zI0Cpl"
 weight = 2
 
 [[main]]
 name = "Team"
-pageRef = "/peoples"
+pageRef = "peoples"
 identifier = "KmE9d9B7ln"
 weight = 5
 
 [[main]]
 name = "Publications"
-pageRef = "/publications"
+pageRef = "publications"
 identifier = "rv5RmWhsjr"
 weight = 3
 
 [[main]]
 name = "Resources"
-pageRef = "/resources"
+pageRef = "resources"
 identifier = "pMpSGoUct6"
 weight = 4
 
 [[main]]
 name = "Join us"
-pageRef = "/vacancies"
+pageRef = "vacancies"
 identifier = "0yTb9jv0lO"
 weight = 6
 
 [[main]]
 name = "Contact us"
-pageRef = "/contact"
+url = "/about/contact"
 identifier = "NlnMvv7B47"
 weight = 7
+
 
 [[footer]]
 name = "University College Dublin"
