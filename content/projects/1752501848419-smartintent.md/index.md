@@ -37,6 +37,7 @@ Our research found that providing a small number of input/output examples (Few-s
 ## SmartIntent in Action: Orchestrating Your Home
 
 The middleware layer, described as the system's "core processing unit," coordinates user intent with device operations. It comprises:
+
 * **Proxy Server:** Central routing gateway.
 * **Intent Server:** Parses natural language commands.
 * **Aggregator:** Collects real-time device and sensor data.
@@ -50,17 +51,15 @@ The middleware layer, described as the system's "core processing unit," coordina
 
 SmartIntent offers a "feasible design idea and realization paradigm for the next-generation smart home system". Future work will focus on integrating more real user behavior data, improving model robustness under non-standardized representations, and optimizing performance for larger-scale device environments.
 
-**Potential Visual Aid:** A "roadmap" graphic showing future directions, such as "Enhanced User Testing," "Advanced Anomaly Handling," and "Energy Optimization."
-
 ## Resources
 
 We have made the following resources available for the SmartIntent project:
 
-{{< github repo="ucd-soc2/smartintent" showThumbnail=true >}}
-
-[Dataset](https://github.com/ucd-soc2/smartintent/tree/main/data)
+* [Dataset](https://github.com/ucd-soc2/smartintent/tree/main/data)
+* [GitHub Repository](https://github.com/ucd-soc2/smartintent)
 
 -----
+
 ## Project Members
 
 Beijing Dublin International College, UCD

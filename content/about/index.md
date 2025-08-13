@@ -22,7 +22,7 @@ Our work combines energy-efficient, carbon-aware computing with cutting-edge par
 
 ## Research Focus
 
-{{< article link="/about/research_area/" showSummary=true compactSummary=true >}}
+[Check our research focus areas](/about/research_areas/).
 
 ## Our Values
 

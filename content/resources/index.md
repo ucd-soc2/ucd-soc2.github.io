@@ -5,8 +5,6 @@ description: "We provide a range of resources to support open science practices,
 showRelatedContent: false
 ---
 
-## Code
+{{< list limit=10 title="Code" where="Type" value="code" >}}
 
-## Datasets
-
-- [Smart Home Command Training Dataset](https://example.com/smarthome-command)
+{{< list limit=10 title="Datasets" where="Type" value="datasets" >}}
