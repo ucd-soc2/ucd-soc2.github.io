@@ -9,20 +9,23 @@ showRelatedContent: false
 tags: ["SOC2", "Lab", "Sustainable", "Orchestration", "Computing", "Continuum", "UCD", "University College Dublin", "Research Group"]
 ---
 
-SOC2: Sustainable Orchestration in Computing Continuum Lab is a research group at the School of Computer Science, University College Dublin (UCD). The lab focuses on sustainable computing, energy and resource efficiency, and carbon-aware system design in the context of edge-to-cloud continuum. The lab's research also explores the challenges of deploying AI-based applications, including large language models (LLMs), in edge and distributed environments.
+Digital services and AI models now power everything from city traffic control to personalised healthcare, but their energy use and carbon footprint are growing fast. SOC² Lab develops sustainable ways to orchestrate these services across the **edge–to–cloud continuum**, enabling low-carbon, resilient, and intelligent systems for **smart cities, smart buildings, and global-scale applications**.
 
-The lab is led by Hadi Tabatabaee Malazi, an Assistant Professor at UCD. The lab welcomes opportunities to connect with students, researchers, and industry collaborators interested in sustainable edge-cloud systems and the deployment of large language models (LLMs), including distributed and edge-based LLMs.
+Our work combines energy-efficient, carbon-aware computing with cutting-edge paradigms such as serverless architectures, edge AI, and distributed large language models. From real-time urban analytics to building energy optimisation, we design orchestration models and algorithms that reduce environmental impact while improving performance and resilience, directly contributing to UN Sustainable Development Goals 7, 9, 11, and 13.
 
-The lab's research areas include:
+{{< gallery >}}
+  <img src="un_goals/E_PRINT_07.jpg" class="grid-w25" />
+  <img src="un_goals/E_PRINT_09.jpg" class="grid-w25" />
+  <img src="un_goals/E_PRINT_11.jpg" class="grid-w25" />
+  <img src="un_goals/E_PRINT_13.jpg" class="grid-w25" />
+{{< /gallery >}}
 
-- Sustainable computing
-- Energy and resource efficiency
-- Carbon-aware system design
-- Edge-to-cloud continuum
-- AI-based applications
-- Large language models (LLMs)
-- Distributed and edge-based LLMs
+## Research Focus
 
-The lab is also involved in various research projects to develop innovative solutions for sustainable computing and AI deployment.
+{{< article link="/about/research_area/" showSummary=true compactSummary=true >}}
 
-{{< list limit=3 title=Peoples where="Type" value="peoples" >}}
+## Our Values
+
+- **Open Science and the FAIR Principles**: We make all research outputs, from orchestration algorithms to edge–cloud simulation datasets, openly available under the FAIR principles, ensuring they are Findable, Accessible, Interoperable, and Reusable. By sharing tools, data, and reproducibility packages on open platforms, we accelerate innovation and enable validation of our work by the global research community.
+- **Equality, Diversity, and Inclusion (EDI)**: We create an inclusive research environment where diverse perspectives, backgrounds, and expertise are valued as essential to solving complex challenges in sustainable computing, AI at the edge, and resilient urban systems. Our EDI commitment extends to recruitment, mentoring, and collaborative projects.
+- **Collaboration for Impact**: We work closely with academic institutions, industry leaders, and policy stakeholders to co-create solutions that combine scientific excellence with societal benefit, from renewable-aware orchestration to distributed AI deployment and sustainable networking infrastructures.

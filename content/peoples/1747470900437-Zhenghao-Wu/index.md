@@ -1,12 +1,12 @@
 ---
 title: "Zhenghao Wu"
-date: 2025-05-01
+date: 2025-08-13
 showAuthor: false
 draft: false
-description: "a description"
+description: "a description for Zhenghao Wu"
 authors:
   - "zhenghaowu"
-tags: ["example", "tag"]
+tags: ["zhenghao", "wu", "sustainable", "computing", "orchestration", "edge", "cloud", "ai"]
 ---
 
 Zhenghao Wu is a PhD student in the Department of Computer Science at University College Dublin (UCD). He is a member of the Sustainable Orchestration in Computing Continuum (SOC² Lab) led by Hadi Tabatabaee Malazi. His research interests include large language models (LLMs), edge computing, and cloud computing. He is particularly focused on the leverage of LLMs in Cloud/Edge/IoT Computing environments for optimization and orchestration. 

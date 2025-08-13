@@ -1,29 +1,44 @@
 [[main]]
-none = "none"
-
-[[main]]
-name = "About"
+name = "About SOC² Lab"
 pageRef = "about"
-identifier = "68kwAuGu1m"
-weight = 5
-
-[[main]]
-name = "Projects"
-pageRef = "projects/"
-identifier = "dxb0VrntYu"
+identifier = "RVYpEEdF9E"
 weight = 1
 
 [[main]]
-name = "Vacancies"
-pageRef = "vacancies/"
-identifier = "xfcsYMmIlR"
-weight = 4
+name = "Research areas"
+pageRef = "about/research_area"
+identifier = "6ZqzZWrX8R"
+weight = 2
+
+[[main]]
+name = "Team"
+pageRef = "peoples"
+identifier = "KmE9d9B7ln"
+weight = 5
 
 [[main]]
 name = "Publications"
-pageRef = "/publications"
-identifier = "92Q2PGy38u"
-weight = 2
+pageRef = "publications"
+identifier = "rv5RmWhsjr"
+weight = 3
+
+[[main]]
+name = "Resources"
+pageRef = "resources"
+identifier = "pMpSGoUct6"
+weight = 4
+
+[[main]]
+name = "Join us"
+pageRef = "vacancies"
+identifier = "0yTb9jv0lO"
+weight = 6
+
+[[main]]
+name = "Contact us"
+pageRef = "contact"
+identifier = "NlnMvv7B47"
+weight = 7
 
 [[footer]]
 name = "University College Dublin"
@@ -35,4 +50,4 @@ weight = 1
 name = "School of Computer Science"
 url = "https://www.ucd.ie/cs/"
 identifier = "ddri31r0WR"
-weight = 9_999
+weight = 2
