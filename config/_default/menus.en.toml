@@ -1,42 +1,42 @@
 [[main]]
 name = "About SOC² Lab"
-pageRef = "about"
+pageRef = "/about"
 identifier = "RVYpEEdF9E"
 weight = 1
 
 [[main]]
 name = "Research areas"
-pageRef = "about/research_area"
+pageRef = "/about/research_area"
 identifier = "6ZqzZWrX8R"
 weight = 2
 
 [[main]]
 name = "Team"
-pageRef = "peoples"
+pageRef = "/peoples"
 identifier = "KmE9d9B7ln"
 weight = 5
 
 [[main]]
 name = "Publications"
-pageRef = "publications"
+pageRef = "/publications"
 identifier = "rv5RmWhsjr"
 weight = 3
 
 [[main]]
 name = "Resources"
-pageRef = "resources"
+pageRef = "/resources"
 identifier = "pMpSGoUct6"
 weight = 4
 
 [[main]]
 name = "Join us"
-pageRef = "vacancies"
+pageRef = "/vacancies"
 identifier = "0yTb9jv0lO"
 weight = 6
 
 [[main]]
 name = "Contact us"
-pageRef = "contact"
+pageRef = "/contact"
 identifier = "NlnMvv7B47"
 weight = 7
 
