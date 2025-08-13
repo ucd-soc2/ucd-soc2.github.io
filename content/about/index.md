@@ -11,7 +11,7 @@ tags: ["SOC2", "Lab", "Sustainable", "Orchestration", "Computing", "Continuum", 
 
 Digital services and AI models now power everything from city traffic control to personalised healthcare, but their energy use and carbon footprint are growing fast. SOC² Lab develops sustainable ways to orchestrate these services across the **edge–to–cloud continuum**, enabling low-carbon, resilient, and intelligent systems for **smart cities, smart buildings, and global-scale applications**.
 
-Our work combines energy-efficient, carbon-aware computing with cutting-edge paradigms such as serverless architectures, edge AI, and distributed large language models. From real-time urban analytics to building energy optimisation, we design orchestration models and algorithms that reduce environmental impact while improving performance and resilience, directly contributing to UN Sustainable Development Goals 7, 9, 11, and 13.
+Our work combines **energy-efficient, carbon-aware computing** with cutting-edge paradigms such as serverless architectures, edge AI, and distributed large language models. From real-time urban analytics to building energy optimisation, we design orchestration models and algorithms that reduce environmental impact while improving performance and resilience, directly contributing to **UN Sustainable Development Goals 7, 9, 11, and 13.**
 
 {{< gallery >}}
   <img src="un_goals/E_PRINT_07.jpg" class="grid-w25" />
