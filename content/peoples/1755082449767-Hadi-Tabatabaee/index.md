@@ -3,6 +3,7 @@ title: "Hadi Tabatabaee"
 date: 2025-08-10
 showAuthor: false
 draft: false
+slug: "hadi-tabatabaee"
 description: "a description for Hadi Tabatabaee"
 authors:
   - "haditabatabaee"

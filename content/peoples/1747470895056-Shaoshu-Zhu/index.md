@@ -3,6 +3,7 @@ title: "Shaoshu Zhu"
 date: 2025-08-10
 showAuthor: false
 draft: false
+slug: "shaoshu-zhu"
 description: "a description for Shaoshu Zhu"
 authors:
   - "shaoshuzhu"

@@ -3,6 +3,7 @@ title: "Zhenghao Wu"
 date: 2025-08-10
 showAuthor: false
 draft: false
+slug: "zhenghao-wu"
 description: "a description for Zhenghao Wu"
 authors:
   - "zhenghaowu"
