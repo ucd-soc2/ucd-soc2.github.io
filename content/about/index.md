@@ -1,5 +1,5 @@
 ---
-title: "About SOC2 Lab"
+title: "About SOC² Lab"
 date: 2025-05-17
 draft: false
 description: "a description"

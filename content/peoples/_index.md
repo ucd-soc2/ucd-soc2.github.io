@@ -2,7 +2,7 @@
 title: "Meet the Team"
 date: 2025-08-10
 draft: false
-description: "Meet the talented individuals behind SOC2 Lab's innovative research."
+description: "Meet the talented individuals behind SOC² Lab's innovative research."
 
 showRelatedContent: false
 
