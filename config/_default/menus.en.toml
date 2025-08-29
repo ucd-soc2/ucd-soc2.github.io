@@ -11,12 +11,6 @@ identifier = "rv5RmWhsjr"
 weight = 4
 
 [[main]]
-name = "Resources"
-pageRef = "resources"
-identifier = "pMpSGoUct6"
-weight = 5
-
-[[main]]
 name = "Team"
 pageRef = "peoples"
 identifier = "KmE9d9B7ln"

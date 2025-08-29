@@ -8,14 +8,23 @@ showRelatedContent: false
 ## Journal Papers:
 
 
-
 1.	Dawson, B., Tabatabaee Malazi, H., Kazmi, A., and Rasool Chaudhry, S. A Zero-Trust Approach for Cooperative Vehicular Networks: A Motorway Use Case, IEEE Systems, Man, and Cybernetics Magazine 11(1):11-22, (2025) IEEE.
 2.	Elahi, F., Fazlali, M., Tabatabaee Malazi, H., and Elahi, M. Parallel Fractional Stochastic Gradient Descent with Adaptive Learning for Recommender Systems, IEEE Transactions on Parallel and Distributed Systems, 35(03):470-483, (2024) IEEE.
 3.	Rasool Chaudhry, S., Tabatabaee Malazi, H., Dhara, S., Kazmi, A., and Clarke, S., Towards Context-aware Information Dissemination in Autonomous Networks of Vehicles, IEEE Communications Standards Magazine. 7(2):8-15, (2023) IEEE.
 4.	Khazael, B., Vahidi-asl, M., and Tabatabaee Malazi, H., Geospatial Complex Event Processing in Smart City Applications, Simulation Modelling Practice and Theory, 122:102675, (2023) Elsevier.
+
+    {{< button href="https://github.com/BehnamKhazael/Geo-T-Rex" target="_self" >}}
+    Code
+    {{< /button >}}
+
 5.	Kazmi, A., Rasool Chaudhry, S., Tabatabaee Malazi, H., Dhara, S., and Clarke, S., Interoperable Internet of Things for Smart Transportation Systems in Circular Cities, Computer, 55(12): 86-97, (2022) IEEE.
 6.	Tabatabaee Malazi, H., Chaudhry, S.R., Kazmi, A., Palade A., Cabrera, C., White, G., and Clarke, S. Dynamic Service Placement in Multi-access Edge Computing: a Systematic Literature Review. IEEE Access 10:143150-143165, (2022) IEEE.
 7.	Khazael, B., Hadi Tabatabaee Malazi, and Clarke, S. Complex Event Processing in Smart City Monitoring Applications. IEEE Access 9:143150-143165, (2021) IEEE.
+
+    {{< button href="https://github.com/BehnamKhazael/ComplexEventProcessingInSmartCity" target="_self" >}}
+    Code
+    {{< /button >}}
+
 8.	Mirhosseini, M., Fazlali, M., Tabatabaee Malazi, H., Izadi, SK., and Nezamabadi-pour, H. Parallel Quadri-valent Quantum-Inspired Gravitational Search Algorithm on a heterogeneous platform for wireless sensor networks. Computers & Electrical Engineering 92:107085, (2021) Elsevier.
 9.	Shahraki Khodabandeh, Z., Fatemi, A., and Tabatabaee Malazi, H., Evidential fine-grained event localization using Twitter. Information Processing & Management 56(6): 102045, (2019) Elsevier.
 10.	Toosinezhad, Z., Mohamadpoor, M. and Tabatabaee Malazi, H., Dynamic windowing mechanism to combine sentiment and N-gram analysis in detecting events from social media. Knowledge and Information Systems 60(1):179-196, (2019) Springer.
@@ -43,6 +52,11 @@ showRelatedContent: false
 1.	Tabatabaee Malazi, H., and Siobhán Clarke. Distributed Service Placement and Workload Orchestration in a Multi-access Edge Computing Environment, IEEE International Conference on Services Computing (IEEE SCC), 2021.
 2.	Khazael, B., Tabatabaee Malazi, H., Distributed coordination protocol for event data exchange in IoT monitoring applications, 11th International Conference on Information and Knowledge Technology (IKT2020).
 3.	Taghavi, S., Davari, F., Tabatabaee Malazi, H., and Abin, A. A. Tennis stroke detection using inertial data of a smartwatch, 9th International Conference on Computer and Knowledge Engineering (ICCKE), pp. 466–474, 2019, IEEE.
+
+    {{< button href="https://ieee-dataport.org/documents/tennis-strokeinertial-dataforehandbackhandserve" target="_self" >}}
+    Dataset
+    {{< /button >}}
+
 4.	Esfahani, P., Tabatabaee Malazi, H., PAMS: A new position-aware multi-sensor dataset for human activity recognition using smartphones, 19th International Symposium on Computer Architecture and Digital Systems (CADS’17), 2017, IEEE.
 5.	Taghizadeh Naderi, P., Tabatabaee Malazi, H., Ghassemian, M., and Haddadi, H. Quality of claim metrics in social sensing systems: a case study on irandeal, 6th International Conference on Computer and Knowledge Engineering (ICCKE), pp. 129–135, 2016, IEEE.
 6.	Moradi, E., Fazlali, M., and Tabatabaee Malazi, H., Fast parallel community detection algorithm based on modularity, International Symposium on Computer Architecture and Digital Systems (CADS), pp. 1–4, 2015, IEEE.
