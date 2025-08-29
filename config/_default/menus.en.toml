@@ -30,7 +30,7 @@ weight = 7
 
 [[main]]
 name = "Research areas"
-pageRef = "research_area"
+pageRef = "area"
 identifier = "G14Y2HFAHW"
 weight = 2
 
