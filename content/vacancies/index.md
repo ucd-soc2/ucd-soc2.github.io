@@ -1,5 +1,5 @@
 ---
-title: "Join SOC² Lab page"
+title: "Join SOC² Lab"
 description: "Join SOC² Lab - Current opportunities for collaboration and partnerships"
 
 showRelatedContent: false
