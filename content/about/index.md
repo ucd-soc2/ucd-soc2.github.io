@@ -31,3 +31,25 @@ Our work combines **energy-efficient, carbon-aware computing** with cutting-edge
 - **Open Science and the FAIR Principles**: We make all research outputs, from orchestration algorithms to edge–cloud simulation datasets, openly available under the FAIR principles, ensuring they are Findable, Accessible, Interoperable, and Reusable. By sharing tools, data, and reproducibility packages on open platforms, we accelerate innovation and enable validation of our work by the global research community.
 - **Equality, Diversity, and Inclusion (EDI)**: We create an inclusive research environment where diverse perspectives, backgrounds, and expertise are valued as essential to solving complex challenges in sustainable computing, AI at the edge, and resilient urban systems. Our EDI commitment extends to recruitment, mentoring, and collaborative projects.
 - **Collaboration for Impact**: We work closely with academic institutions, industry leaders, and policy stakeholders to co-create solutions that combine scientific excellence with societal benefit, from renewable-aware orchestration to distributed AI deployment and sustainable networking infrastructures.
+
+## Vacancies
+
+We welcome talented researchers and students who share our passion for sustainable computing and edge intelligence. Whether you are seeking a PhD, postdoctoral fellowship, or a short-term research stay, SOC² Lab offers a collaborative, inclusive environment and access to our edge and cloud computing testbeds.
+
+Opportunities include:
+
+- **PhD positions** are available through funded routes, such as Research Ireland Government of Ireland (GoI) Scholarships and China Scholarship Council–Ireland (CIC). PhD positions are also available on a self-funded basis. 
+- **Postdoctoral research positions** are funded through MSCA Postdoctoral Fellowships and other international calls. 
+- **Visiting researcher positions** are available for short- or long-term collaboration on aligned research topics (on a self-funded basis). 
+- **Research internships** are available for top students or early-career researchers wishing to align independent projects with our focused areas (on a self-funded basis).
+
+Check out our [Vacancies page](/vacancies/) for current opportunities and application details.
+
+## Collaborate with SOC²
+
+We are building a network of collaborators across academia, industry, and policy who share our vision for **sustainable computing** and **edge intelligence**. Our work spans the **edge–to–cloud continuum**, with expertise in renewable-aware orchestration, distributed AI deployment, and sustainable networking infrastructures. We welcome collaboration in areas such as:
+
+- **Joint proposal development** for national and international research calls
+- **Co-supervision of PhD projects** and student exchanges
+- **Shared datasets, tools, and testbeds** to advance open science
+- **Pilot studies and proof-of-concept projects** with industry and community partners
